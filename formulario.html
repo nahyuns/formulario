@@ -13,28 +13,35 @@
     </header>
     <main>
         <form action="">
-            <div>
-                <label for="Nombre" required="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
+            <fieldset>
+                <div>
+                    <label for="Nombre" required="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
 
-                <label for="Appellido" required="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
-            </div>
-            <div>
-                <label for="Correo Electronico" required="correo electronico">Correo Electronico</label>
-                <input type="email" name="correo electrónico" id="correo electrónico">
+                    <label for="Appellido" required="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="Correo Electronico" required="correo electronico">Correo Electronico</label>
+                    <input type="email" name="correo electrónico" id="correo electrónico">
 
-                <label for="Fecha de nacimiento">Fecha de nacimiento</label>
-                <input type="date" name="fecha de nacimiento" id="fecha de nacimiento">
-            </div>
-            <div>
-                <label for="DNI" aria-required="DNI">DNI</label>
-                <input type="text" name="DNI" id="DNI">
+                    <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                    <input type="date" name="fecha de nacimiento" id="fecha de nacimiento">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="DNI" aria-required="DNI">DNI</label>
+                    <input type="text" name="DNI" id="DNI">
 
-                <label for="Teléfono">Teléfono</label>
-                <input type="text" name="Telefono" id="Telefono">
-            </div>
-
+                    <label for="Teléfono">Teléfono</label>
+                    <input type="tel" name="Telefono" id="Telefono">
+                </div>
+        </form>
+        </fieldset>
+        <fieldset>
             <div>
                 <label for="Usuario de X">Usuario de X</label>
                 <input type="text" name="usuario de x" id="usuario de x">
@@ -42,7 +49,8 @@
                 <label for="Usuario de Instagram">Usuario de Instagram</label>
                 <input type="text" name="usuario de ig" id="usuario de ig">
             </div>
-
+        </fieldset>
+        <fieldset>
             <div>
                 <label for="Provincia">Provincia</label>
                 <select>
@@ -74,7 +82,8 @@
                 <label for="Ciudad">Ciudad</label>
                 <input type="text" name="Ciudad" id="Ciudad">
             </div>
-
+        </fieldset>
+        <fieldset>
             <div>
                 <label for="base">¿Qué tipo de base usas?</label>
                 <select>
@@ -96,6 +105,7 @@
                     <option value="Lápiz khol">Lápiz khol</option>
                 </select>
             </div>
+        </fieldset>
         </form>
     </main>
 </body>
